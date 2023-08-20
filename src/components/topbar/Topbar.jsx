@@ -14,7 +14,7 @@ export default function Topbar() {
         <i class="topIcon fab fa-instagram-square"></i>
     </a>
     <a href="https://www.pinterest.com/your-profile" target="_blank" rel="noopener noreferrer">
-    <i class="fa-brands fa-linkedin fa-flip" style="color: #000000;"></i>
+        <i class="topIcon fab fa-pinterest-square"></i>
     </a>
     <a href="https://www.twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
         <i class="topIcon fab fa-twitter-square"></i>
