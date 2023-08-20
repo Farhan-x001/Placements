@@ -6,10 +6,21 @@ export default function Topbar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-instagram-square"></i>
-        <i className="topIcon fab fa-pinterest-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
+      <div class="topIcons">
+    <a href="https://www.facebook.com/profile.php?id=100040854969977" target="_blank" rel="noopener noreferrer">
+        <i class="topIcon fab fa-facebook-square"></i>
+    </a>
+    <a href="https://www.instagram.com/your-profile" target="_blank" rel="noopener noreferrer">
+        <i class="topIcon fab fa-instagram-square"></i>
+    </a>
+    <a href="https://www.pinterest.com/your-profile" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-linkedin fa-flip" style="color: #000000;"></i>
+    </a>
+    <a href="https://www.twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
+        <i class="topIcon fab fa-twitter-square"></i>
+    </a>
+</div>
+
       </div>
       <div className="topCenter">
         <ul className="topList">

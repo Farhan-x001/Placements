@@ -1,3 +1,10 @@
+.sidebarListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
 .sidebar {
     flex: 3;
     height: fit-content;
@@ -10,12 +17,7 @@
     align-items: center;
   }
 
-  .sidebarListIteam {
-    display: inline-block;
-    width: 50%;
-    margin-top: 15px;
-    cursor: pointer;
-  }
+  
 
   .sidebarItem {
     display: flex;
@@ -57,6 +59,7 @@
   
   .sidebarList {
     list-style-type: none;
+    width: 50%;
     margin-bottom: 30px;
   }
   
