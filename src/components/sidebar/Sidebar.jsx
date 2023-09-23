@@ -5,13 +5,13 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
-        <span className="sidebarTitle">ABOUT ME</span>
+        <span className="sidebarTitle">ABOUT US</span>
         <img
-          src="https://i.ibb.co/72WLwPw/1670780464146.jpg"
+          src="https://i.ibb.co/0QFChH7/logo-ayush-center.png"
           alt=""
         />
         <p>
-         This is farhan here a technology enthustic !
+        Ayurveda, Yoga and Naturopathy, Unani, Siddha, and Homeopathy (AYUSH)
         </p>
       </div>
       <div className="sidebarItem">

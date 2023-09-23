@@ -10,6 +10,10 @@
     height: 280px;
     object-fit: cover;
     border-radius: 7px;
+    border-radius: 1px;
+    border-radius: 20px;
+    margin:left auto;
+    border: 2px solid rgb(159, 199, 113);
   }
   
   .postInfo {
@@ -58,5 +62,6 @@
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+    text-align: center;
   }
   

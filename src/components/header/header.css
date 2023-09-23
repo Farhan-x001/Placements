@@ -1,5 +1,6 @@
 .header {
     margin-top: 60px;
+    
   }
   
   .headerTitles {
@@ -7,25 +8,48 @@
     flex-direction: column;
     align-items: center;
     font-family: "Lora", serif;
-    color: #444;
+    color: #000000;
+    
+  }
+  .headerTitleLg {
+    position: absolute;
+    top: 10%;
+    font-size: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
   
   .headerTitleSm {
     position: absolute;
-    top: 18%;
+    top: 10%;
     font-size: 20px;
+    padding-bottom: 50px;
   }
   
   .headerTitleLg {
     position: absolute;
-    top: 20%;
-    font-size: 100px;
+    top: 10%;
+    font-size: 80px;
+    padding-top: 2px;
   }
   
   .headerImg {
     width: 100%;
-    height: 450px;
+    height: 350px;
     margin-top: 80px;
     object-fit: cover;
+  }
+  .carousel .slider-wrapper {
+    width: 80%; 
+    height: 450px;
+    margin-top: 80px;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    object-fit: cover;
+    border-radius: 1px;
+    border-radius: 20px;
+    border: 2px solid rgb(159, 199, 113);
+    box-shadow: 0px 0px 20px rgba(211, 234, 108, 0.614);
   }
   
