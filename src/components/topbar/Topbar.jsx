@@ -36,17 +36,25 @@ export default function Topbar() {
               HOME
             </Link>
           </li>
-          <li className="topListItem">ABOUT</li>
+          <li className="topListItem">
+            <Link className="link" to="/cabin">
+                INVESTOR'S CABIN
+            </Link>
+          </li>
           <div classname="midlogo">
             <img 
             className="logoimg"
           src="https://i.ibb.co/0QFChH7/logo-ayush-center.png" 
           alt="logo-ayush-center" ></img></div>
-          <li className="topListItem">CONTACT</li>
+          <li className="topListItem">
+          <Link className="link" to="/startups">
+              STARTUPS
+            </Link>
+          </li>
         
           <li className="topListItem">
             <Link className="link" to="/write">
-              WRITE
+              SOCIAL CENTER
             </Link>
           </li>
           

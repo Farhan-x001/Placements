@@ -1,0 +1,126 @@
+.write {
+  padding-top: 50px;
+}
+
+.writeImg {
+  margin-left: 200px;
+  width: 70vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid rgb(159, 199, 113);
+  box-shadow: 0px 0px 20px rgba(211, 234, 108, 0.614)
+}
+.head{
+  text-align: center;
+    top: 10%;
+    font-size: 40px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+.writeText {
+  width: 70vw;
+  height: 100vh;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.writeSubmit {
+  position: absolute;
+  margin: 20px 40px 90px ;
+  right: 50px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* InvestorsCabin.css */
+
+.investors-cabin {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    /* margin: 0 auto; */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .startup-details,.startup-details1,.startup-details2{
+    background-color: #bcd36b;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .investors-cabin1 {  
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: -390px 40px 90px 490px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .investors-cabin2 {  
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: -480px 40px 90px 980px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .investinfo {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 20px 40px 90px ;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .investimg {
+    width: fit-content;
+    margin: -270px 0px 0px 420px;
+    border-radius: 20px;
+  }
+
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+ 
