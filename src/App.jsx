@@ -6,10 +6,12 @@ import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import Cabin from "./pages/cabin/Cabin";
+import Student from "./pages/student/Student";
 import Startups from "./pages/startups/Startups";
 
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Students from "./pages/student/Student";
 
 function App() {
   const currentUser = true;
@@ -24,6 +26,7 @@ function App() {
           </Route>
           <Route path="/cabin">{currentUser ? <Cabin /> : <Login />}</Route>
           <Route path="/startups">{currentUser ? <Startups /> : <Login />}</Route>
+          <Route path="/student">{currentUser ? <Student /> : <Login />}</Route>
           <Route path="/posts">
             <Homepage />
           </Route>

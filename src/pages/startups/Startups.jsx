@@ -7,7 +7,7 @@ export default function Startups() {
     return (
      <div className="startup">
         <div className='head'>
-        <h1>Welcome to Ayush-Startups</h1>
+        <h1>Welcome to success arena</h1>
         </div>
         <br></br >
         <Carousel
@@ -31,11 +31,11 @@ export default function Startups() {
         </div>
       </Carousel>
       <div className='head2'>
-        <h1>ABOUT AYUSH STARTUPS:</h1>
+        <h1>ABOUT highest PACKEGES:</h1>
         </div>
             <div className="investinfo">
 
-                <h2>Introduction to Ayush Startups:</h2>
+                <h2>Introduction to placements</h2>
                 <br></br>
                 <p>Ayush startups are a dynamic and innovative force within the realm of holistic healthcare. These ventures are revitalizing ancient healing traditions, such as Ayurveda, Yoga, Unani, Siddha, and Homeopathy, by blending them with contemporary science and technology. Ayush startups exemplify a commitment to holistic well-being and preventative healthcare, offering a wide array of products and services, from herbal remedies and wellness supplements to cutting-edge wellness apps and personalized health solutions. This burgeoning sector has not only experienced rapid growth but has also garnered global recognition for its role in promoting natural and sustainable healthcare practices</p>
                 <br></br>

@@ -57,6 +57,12 @@ export default function Topbar() {
               SOCIAL CENTER
             </Link>
           </li>
+
+          <li className="topListItem">
+            <Link className="link" to="/student">
+              STUDENT DATA
+            </Link>
+          </li>
           
         </ul>
       </div>

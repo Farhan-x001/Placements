@@ -1,0 +1,209 @@
+
+.logo img {
+    margin: 50px 0px 0px 20px;
+    
+    border-radius: 60px; /* Makes the image circular */
+    width: 300px; /* Adjust the width as needed */
+    size: 100%; /* Adjust the height as needed */
+    object-fit: cover; /* Maintains aspect ratio and covers the entire circular area */
+  }
+  .logo2 img {
+    margin: 10px 0px 0px 25px;
+    border-radius: 60px; /* Makes the image circular */
+    width: 300px; /* Adjust the width as needed */
+    size: 100%; /* Adjust the height as needed */
+    object-fit: cover; /* Maintains aspect ratio and covers the entire circular area */
+  }
+  .logo1 img {
+    margin: 65px 9px 9px 20px;
+    border-radius: 60px; /* Makes the image circular */
+    width: 300px; /* Adjust the width as needed */
+    size: 120%; /* Adjust the height as needed */
+    object-fit: cover; /* Maintains aspect ratio and covers the entire circular area */
+  }
+  
+.investinfo {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px 40px 90px ;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+.head2{
+    margin: 30px;
+}
+  .write {
+    padding-top: 50px;
+  }
+  
+  .writeImg {
+    margin-left: 200px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid rgb(159, 199, 113);
+    box-shadow: 0px 0px 20px rgba(211, 234, 108, 0.614)
+  }
+  .head{
+    text-align: center;
+      top: 10%;
+      font-size: 40px;
+      padding-top: 2px;
+  }
+  
+  .writeText {
+    width: 70vw;
+    height: 100vh;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  
+  .writeSubmit {
+    position: absolute;
+    margin: 20px 40px 90px ;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* InvestorsCabin.css */
+  
+  .investors-cabin {
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: 200px 0px 0px 20px;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    .startup-details,.startup-details1,.startup-details2{
+      background-color: #bcd36b;
+      padding: 20px;
+      border-radius: 5px;
+      block-size: 300px;
+      
+    }
+    
+    .investors-cabin1 {  
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: -380px 0px 0px 1000px;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .investors-cabin2 {  
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: -380px 0px 0px 500px;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    .investinfo {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 20px 40px 90px 20px ;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .investimg {
+      width: 500px;
+      margin: -220px 0px 0px 420px;
+      border-radius: 20px;
+    }
+  
+    h2 {
+      color: #333;
+    }
+    
+    p {
+      color: #666;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    ul li {
+      margin-bottom: 5px;
+    }
+    
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    .patners{
+        margin: 190px 0 0 0;
+    }
+    /* Apply styles to the entire form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style input fields */
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+   
