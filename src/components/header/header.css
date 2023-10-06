@@ -35,16 +35,15 @@
   }
   
   .headerImg {
-    width: 100%;
-    height: 350px;
+    width: 1520px; 
+    height: 560px;
     margin-top: 80px;
     object-fit: cover;
   }
   .carousel .slider-wrapper {
-    width: 80%; 
-    height: 450px;
+    width: 1520px; 
+    height: 560px;
     margin-top: 80px;
-   
     object-fit: cover;
     border-radius: 1px;
     border-radius: 20px;

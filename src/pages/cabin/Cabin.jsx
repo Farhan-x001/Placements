@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './cabin.css';
 
 export default function Cabin() {
@@ -10,20 +12,31 @@ export default function Cabin() {
         <h1>Welcome to Investor's Cabin</h1>
         </div>
         <br></br >
-        <img
-          className="writeImg"
-          src="https://i.ibb.co/9GKpwXv/th-1.jpg"
-          alt=""
-        />
+        <Carousel
+        showThumbs={false}
+        infiniteLoop={true}
+        autoPlay={true}
+        interval={3000}
+        className="carousel" // Add a custom CSS class for styling
+      >
+        <div>
+          <img src="https://i.ibb.co/PYRQFfm/3.jpg" alt="Image 2" />
+        </div>
+        <div>
+          <img src="https://i.ibb.co/n8LvkpJ/2.jpg" alt="Image 3" />
+        </div>
+        
+      </Carousel>
         <button className="writeSubmit" type="submit">
           Publish
         </button>
-        <br></br >
-        <br></br >
-        <div className="investors-cabin" >
 
+        
+
+        <div className="investors-cabin" >
+        <h1>Welcome to Investor's Cabin</h1>
       <div className="startup-details">
-        <h2>Tech Innovators Inc.</h2>
+        <h2>Prasad seeds pvt </h2>
         <p>
           A cutting-edge technology startup focused on innovation and AI
           solutions.

@@ -38,7 +38,7 @@ export default function Topbar() {
           </li>
           <li className="topListItem">
             <Link className="link" to="/cabin">
-                INVESTOR'S CABIN
+                PLACEMENT STATS
             </Link>
           </li>
           <div classname="midlogo">
@@ -48,7 +48,7 @@ export default function Topbar() {
           alt="logo-ayush-center" ></img></div>
           <li className="topListItem">
           <Link className="link" to="/startups">
-              STARTUPS
+              HIGHEST PACKEGES 
             </Link>
           </li>
         
